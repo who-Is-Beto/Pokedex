@@ -1,0 +1,54 @@
+/* ------------------------------------------ VARIABLES */
+/* ------------------------------------ COLORES */
+/* ------------------------------------ MEDIDAS */
+/* ------------------------------------ SOMBRAS */
+/* ------------------------------------------ TARJETAS */
+.main {
+  display: block;
+  justify-content: center;
+  width: 33%;
+  padding: 25px;
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 50vh;
+  background-color: #504867;
+  box-shadow: 1px 3px 20px #3C131E;
+}
+.main img {
+  width: 40%;
+}
+.main h3 {
+  color: white;
+  font-size: 75px;
+  margin: 12px 0;
+}
+.main input {
+  width: 95%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  color: #494848;
+  margin-top: 45px;
+}
+.main input::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+}
+.main input:focus {
+  outline: none;
+}
+
+body {
+  background-color: #7DAAD0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*# sourceMappingURL=estilos.css.map */

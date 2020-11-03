@@ -1,0 +1,11 @@
+{
+  "name": "mySASSProject",
+  "version": "1.0.0",
+  "description": "My first SASS project, so, I just started to learn SASS c:",
+  "scripts": {
+    "run": ""
+  },
+  "main": "index.js",
+  "author": "Beto Cortés",
+  "license": "MIT"
+}

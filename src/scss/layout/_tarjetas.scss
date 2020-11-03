@@ -1,0 +1,39 @@
+.main {
+
+  display: block;
+  justify-content: center;
+  width: $ANCHO_TARJETA;
+  padding: 25px;
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 50vh;
+  background-color: $MORADO_CLARO;
+  box-shadow: $SOMBRA_CAJA  ;
+  img {
+    width: $POKE_IMG;
+  }
+
+  h3 {
+    color: white;
+    font-size: $POKE_NOMBRE;
+    margin: 12px 0;
+  }
+
+  input{
+    width: 95%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: $TEXTO;
+    color: rgb(73, 72, 72);
+    margin-top: 45px;
+    &::-webkit-input-placeholder {
+      text-align: center;
+      line-height: 100px;
+    }
+    &:focus {
+      outline: none;
+
+    }
+  }
+}
